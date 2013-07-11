@@ -10,13 +10,17 @@ An example how to use libSML is in the examples directory.
 #### Dependencies
 Ubuntu
 
-	apt-get install uuid-dev uuid-runtime
+	apt-get install uuid-dev uuid-runtime cmake
 
 #### Compilation
  
-	make
+	mkdir build
+	cd build 
+	cmake ..
+	make && make test && make install
 
-The resulting binaries are located in sml/lib
+
+The resulting binaries are located in build/
 
 ### License
 Copyright 2011 Juri Glass, Mathias Runge, Nadim El Sayed - DAI-Labor, TU-Berlin
