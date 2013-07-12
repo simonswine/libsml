@@ -42,6 +42,10 @@ add_library(sml SHARED
 # Link uuid
 target_link_libraries(sml uuid)
 
+# Set version 
+set_target_properties(sml PROPERTIES SOVERSION 1) 
+
+
 # Install Lib
 install(TARGETS sml LIBRARY DESTINATION lib)
 

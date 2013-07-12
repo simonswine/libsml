@@ -1,1 +1,1 @@
-sml/lib/libsml.* /usr/lib
+debian/tmp/usr/lib/libsml.* /usr/lib
